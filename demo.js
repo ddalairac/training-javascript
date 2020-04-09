@@ -115,6 +115,12 @@ console.log("name: ", persGetSetObj.name)
 
 // Prototipe
 console.warn("Prototipe");
+/* Cuando hacemos una función constructor, se crea en memoria el espacio con el prototipo. 
+Cada nueva instancia tiene un atributo '__proto__' que es una referencia al 'prototipe' de la función.
+Modificar el prototipo o __proto__ es lo mismo. Son referencias al mismo objeto.
+Si el objeto tiene un atributo con el mismo nombre, cuando se lo invoca no usa el del prototipo, en caso de no existir, va a buscarlo al prototipo.
+Un atributo en el prototipo, es como un atributo estatico.
+ */
 // console.log("prototipe: ",Persona.prototype)
 // console.log("__proto__: ",persObj.__proto__) // Persona.prototipe
 // console.log("__proto__.__proto__: ",persObj.__proto__.__proto__) // Object.prototipe
