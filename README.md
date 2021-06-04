@@ -1,5 +1,8 @@
-# Training-JavaScript
+# JavaScript Training
 
+Repositorio con ejemplos de capacitación en Javascript
+
+## Temas
 - Funcion autoejecutable
 - Objetos literales
 - Mutar objeto
@@ -7,6 +10,6 @@
 - Atributos
 - Propiedaes de Atributos
 - Getter & Setters
-- Prototipo
-- MS6 Class
-- Equality operator
+- Prototipos
+- ES6 Classes
+- Equality operator comparisons
